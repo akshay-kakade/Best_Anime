@@ -11,7 +11,9 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Best Anime",
   description: "Best Anime of all time, all in one place.",
-  icons: "/chain.jpg",
+  icons: {
+    icon: "/chain.jpg",
+  }
   
 };
 
